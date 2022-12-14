@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  
-<title>Influencer Project</title>
-<style>  
-h1 {text-align: center;}
-h2 {text-align: center;}
-h3 {text-align: center;}  
-p {text-align: center;}  
-</style>  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
+<body>
   
-  
-<body style="background-color:darksalmon;">
-
-<hr>
-  
-<h2>Influencer Project</h2>
-
-  <h3> Millions of people around the world have social media accounts. However, a few people around the world dominate our social media pages, and we call them "social media influencers". Influencers have huge followings, but is there a specific correlation between influencers and how followers rate them? We first need to determine the factors that impact an influencer's influence score. Such as number of followers, Average likes, and the total number of likes an influencer may have. Before we dive into the data, it’s important to note that I am using a database that contains 200 influencers of the top influencers on instagram, their ranks, influencer score, posts, followers, average likes, total likes, and other data that isn’t relevant to our questions.<h3>
-<hr>
-  <h2> Influencer Score <h2>
-   <h3> Concerning data for just the influencer score, this is the variable that will stay constant throughout our investigation. The mean score is 81.85, this denotes the distribution of scores and measures the central tendency, which means most influencers get a B-. The outliers that affect the mean are the max and min, which also denotes the range of the scores. In this case the range is 22-93, where 22 is the lowest score, and 93 is the highest score. The mode score is 85, this tells us that 85 is the most common score that influencers get. The median score is 84, this tells us the score in the middle of the data, which gives us a good scope of the distribution of the dataset. Now, let’s compare the influencer score to the factors that may alter the score.  <h3>
-<hr>
-    <h2> Influencer Score VS Number of Followers <h2>
-    <h3> Is there a positive, statistically significant correlation between the number of followers an influencer has and their influence score? Cleaning up the unnecessary data, I narrowed down the data to two variables, the influencer score as the independent variable, and number of followers as the dependent variable. Looking at the data for the number of followers I found: the mean is 78,491,000. A six way tie for the mode: 33,600,000,  33,800,000,  36,000,000, 52,900,000,  55,100,000, and  68,100,000. The median is : 50,950,000, and the range is 33,400,000 - 485,200,000. Comparing followers to the influencer score, what we found was that there certainly is a low positive correlation between the variables, and I used a Pearson Correlation to figure this out. A Pearson Correlation Coefficient tells us how closely related two variables are from -1 to 1, in this case the correlation coefficient is 0.365, which is closer to 0 than it is to -1 or positive 1. We can conclude that there is a positive correlation however, it is not statistically significant.<h3>
-<img src ="InfluencerScore to Followers.png" alt="ScoretoFollowers">
-      <hr>
-    <h2> Influencer Score VS Average Likes <h2>
-      
-    
-    <h3> Now let's compare average likes to influence scores, so we can ask: Is there a positive, statistically significant correlation between the average likes an influencer has and their influence score? I narrowed down the data to two variables once more, the influencer score and the average likes. The mean average likes is: 1,785,050 per post. The mode for average likes is 1,100,000 and the median for average likes is also 1,100,000. Finally, the range was from 63,500 to15,400,000. Oddly enough, when I compared the variables to one another, I was able to conclude that there’s a positive correlation but it is extremely weak. The Pearson Correlation Coefficient is 0.048502, meaning that there is little to no correlation between average likes and an influencers score! <h3>
-<img src ="InfluencerScore to AverageLikes.png" alt="ScoretoAverageLikes">
-      <hr>
-      <h2> Influencer Score VS Total Likes <h2>
-      <h3> The next variable to compare to influencer scores is total likes, unlike average likes, total gives us the sum of all likes each influencer receive from all of their posts combined. This value could be comparable to influencer score, since more likes should equal a higher rated influencer. So, is there a positive, statistically significant correlation between the average likes an influencer has on a post and their influence score? I once again narrowed down the data to influencer scores and total likes. The mean total likes is 3,644,949,000, median is 2,050,000,000, and the mode is 1,500,000,000, the range is from 22,800,000 to 57,400,000,000. Just like the average likes, the correlation between total likes and influencer score is positive, but weak, in this case it is stronger compared to the last comparison. The Pearson Correlation Coeffiecient is 0.23498, meaning there’s a weak positive correlation between influencer scores and total likes. <h3>
-<img src ="InfluencerScore to TotalLikes.png" alt="ScoretoTotalLikes">
-        <hr>
-        <h2> Influencer Score VS Total Posts <h2>
-      <h3> Finally, we will compare influencer score to number of posts, will there be a positive, statistically significant correlation between the total number of likes an influencer has and their influence score? The mean total posts is 3460.425, the mode is 10,000, and the median is 2100, and the range is from 20 to 16900. As you can see, the data is all over the place, and it is easy to conclude that the correlation between influencer score to posts is weak. The Pearson Correlation Coeffiecient is 0.168287. Oddly enough, there’s a stronger correlation compared to score and average likes. <h3>
-<img src ="InfluencerScore to TotalPosts.png" alt="ScoretTotalPosts">
-          <hr>
-          <h2> Conclusion <h2>
-      <p> Overall, our findings tell us that there’s no significant correlation between influencer score and any of the variables that we listed. Why is that the case? It may be the popularity of an influencer outside of social media, some “influencers” are actually just corporations, so they receive less likes, but have a higher influencer score than individuals. We also have to take into account what an “influencer score” actually is, who’s opinion is it based off, and how was this data collected? There are also many variables within media that can affect how we look at influencers, controversy, a hiatus, ect. So, I can conclude that influencer score isn’t affected by likes and posts, but it may relate to psychological factors that needs to be considered. <p>
-
-
 </body>
-</html>
+
+  <h1>
+  Data Science 1 Final: Music
+  </h1>
+<p1>
+People are constantly listening to music, whether it be in class, on the bus, or playing video games and the most popular platform to stream music is Spotify. Spotify contains a variety of music, my personal favorite genres are hip hop and alternative rock, by why should spotify care? Well, Spotify has a variety of playlists for all genres of music, so it is important to know what music people are listening to and why people listen to specific genres. So my question is, <mark> what do people enjoy listening to on spotify, and what musical variables influence popular music? </mark> I can answer this question using a database found on Kaggle containing details about an artist, their track name,genre, popularity, and more!
+</p1>
+  <h2>
+    Top 5 music genres
+  </h2>
+<p2>
+We first should determine the top music genres, to narrow down the music a majority of people listen to. So I asked, What are the top 5 music genres by average popularity from each artist on spotify? Using the database, I created a bar graph detailing the top 5 music genres and popularity. To clarify, the popularity rating is on a scale from 0-100 and it is based on the artist,genre, and specific song that is popular. So to begin, I had to find the average popularity rating for each artist and the genre of their song. Once I found the average popularity rating, then created the bar graph seen detailing the top music genres vs popularity. <mark>The most popular genre is dance with a popularity rating of 98, followed by rap, then pop, hip hop, and then reggaeton. </mark>Dance could be the most popular because of the upbeat energy the music brings. And something that could affect the 'feeling' of music is the key signature.
+  
+</p2>
+
+<h2>
+  The most popular keys in music
+</h2>
+
+<p1>Knowing the most popular genres of music, we can then determine the factors that make a track popular to begin with. Music key signatures are extremely important, and they change how music feels. Music key signatures affect ‘color’ of music, which is completely subjective. However, we can use data to determine the most popular key in music, and maybe that will get us closer to answering our initial question.So I asked again, What are the most popular Keys in music? Using the database I narrowed down each track’s key signature and the varying average popularity of each track and their keys. I then put the information into a bar graph showing the most popular keys. Something to note is, the information that is shown gives us the most popular tracks in terms of likeability, not popularity based on the most used keys.</p>
+  
+<p1> <mark> C and F are the most common Keys in music, where C is used 12% of the time and F is used 11% of the time. However, these keys are not the most popular subjectively, C# is the most popular key (subjectively), G# is the 2nd and F# is the 3rd. </mark></p>
+  
+<p1>C# or Db is considered the saddest key in music, in the spotify database, the most popular song with a rating of 100 is “7 Rings” by Ariana Grande and it is in the key of Db.</p>
+  
+<p1>Within the database there are some holes, the popularity is quite iffy, for lack of a better word. Popularity is based on the track and the artist, the most common key is C, yet it is a key that isn’t even in the top 10 tracks (according to the database). It could be because of the popularity rating, which I will get into later.</p>
+  
+<p1>Key signatures don’t necessarily determine the ‘sadness’ or happiness’ of a key, it is valence. Valence is a scale that determines the musical positiveness of a track, on a scale from 0.0 to 1.0, where 1.0 is the most positive, valence determines the ‘feel’/’emotion’ of a track.</p1>
+
+  <h2>
+  Music and Valence
+  </h2>
+<p1>
+  Valence may be the determining factor to why people may rate music highly. So asking another question, is there a correlation between valence and the popularity of a track? Creating a scatter plot with a line of best fit in the middle, I found odd results. I used a Pearson Correlation Coefficient with the data I found. A Pearson Correlation Coefficient measures the relationship between two variables on a scale of -1 to 1 where the closer the coefficient is to 0 the less correlated the variables are. <mark>In the case of popularity versus valence, they have a weak positive correlation coming in at 0.1409.</mark> I expected there to be a stronger correlation because the higher the valence the ‘happier’ the track. <mark>The track with the highest valence in the top 10 tracks was “Sunflower” by Post Malone, with a valence of 0.913, which was 6th in the top 10. Ariana Grande's “7 Rings” had a valence of 0.319.</mark> It seems that valence and popularity aren’t strongly correlated at all.
+</p1>
+
+<h2>
+  Conclusions
+</h2>
+<p1>
+  Going back to my main question, what do people enjoy listening to on spotify, and what makes an artist popular? People enjoy listening to dance music on Spotify, and it seems popularity could be based on key signature, however, each key signature's popularity ratings are so close, it is difficult to come to a sound conclusion. I also found that valence plays a minimal role in determining if a person enjoys listening to a popular song. So I guess people can still dance to sad music. The database used wasn’t 100% perfect, as there were repeat values that I had to remove. Which ties back into the popularity category. What is ‘popularity’ and how is it measured in this database? Just likeability, listenability? That is something that I couldn’t find on the database, but we do know that popularity is completely subjective, so in a different database I could find different values, however, I chose this database solely due to the amount of data in here, it is up to date and has extremely obscure songs and artists. <mark> Overall, on Spotify people enjoy listening to dance music that is in Db</mark>, where "7 Rings" by Ariana Grande is coincidentally the most popular song in the database. </p>
+  <p1>
+    Spotify already has a huge collection of specific and popular dance playlists and music artists can take advantage of the popularity and create 'sad' dance songs that can blow up.
+  </p1>
