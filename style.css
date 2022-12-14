@@ -1,0 +1,18 @@
+html, body {
+  height: 150%;
+  width: 100%;
+  
+  font-family: monospace;
+  
+  background: linear-gradient(120DEG,#1DB954,#808080)
+
+  
+}
+
+h1{
+  text-align: center;
+}
+mark{
+  background-color: green;
+  color: white;
+}
