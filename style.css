@@ -4,8 +4,14 @@ html, body {
   font-family: monospace;
   
   background: linear-gradient(120DEG,#1DB954,#808080);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   
-  font-size: 24px;
+  
+  font-size: 20px;
+  
+  
   
 }
 
