@@ -5,7 +5,7 @@ html, body {
   
   background: linear-gradient(120DEG,#1DB954,#808080);
   
-  font-size: 30px;
+  font-size: 45px;
   
 }
 
@@ -15,4 +15,8 @@ h1{
 mark{
   background-color: green;
   color: white;
+}
+img{
+  max-width: 100%;
+  height: auto;
 }
