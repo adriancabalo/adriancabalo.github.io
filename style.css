@@ -25,6 +25,7 @@ mark{
 img{
   max-width: 100%;
   height: auto;
+  border: 5px groove #555;
 }
 
 .center {
